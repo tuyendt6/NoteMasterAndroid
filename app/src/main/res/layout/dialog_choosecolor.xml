@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imv_color1"
+        android:layout_width="@dimen/icon_height"
+        android:layout_height="@dimen/icon_height"
+        android:layout_marginBottom="@dimen/actionbar_pading_left"
+        android:layout_marginLeft="@dimen/actionbar_pading_ic"
+        android:layout_marginRight="@dimen/actionbar_pading_ic"
+        android:layout_marginTop="@dimen/actionbar_pading_left"
+        android:layout_weight="1"
+        android:background="@color/color_zero" />
+
+    <ImageView
+        android:id="@+id/imv_color2"
+        android:layout_width="@dimen/icon_height"
+        android:layout_height="@dimen/icon_height"
+        android:layout_marginBottom="@dimen/actionbar_pading_left"
+        android:layout_marginLeft="@dimen/actionbar_pading_ic"
+        android:layout_marginRight="@dimen/actionbar_pading_ic"
+        android:layout_marginTop="@dimen/actionbar_pading_left"
+        android:layout_weight="1"
+        android:background="@color/color_one" />
+
+    <ImageView
+        android:id="@+id/imv_color3"
+        android:layout_width="@dimen/icon_height"
+        android:layout_height="@dimen/icon_height"
+        android:layout_marginBottom="@dimen/actionbar_pading_left"
+        android:layout_marginLeft="@dimen/actionbar_pading_ic"
+        android:layout_marginRight="@dimen/actionbar_pading_ic"
+        android:layout_marginTop="@dimen/actionbar_pading_left"
+        android:layout_weight="1"
+        android:background="@color/color_two" />
+
+    <ImageView
+        android:id="@+id/imv_color4"
+        android:layout_width="@dimen/icon_height"
+        android:layout_height="@dimen/icon_height"
+        android:layout_marginBottom="@dimen/actionbar_pading_left"
+        android:layout_marginLeft="@dimen/actionbar_pading_ic"
+        android:layout_marginRight="@dimen/actionbar_pading_ic"
+        android:layout_marginTop="@dimen/actionbar_pading_left"
+        android:layout_weight="1"
+        android:background="@color/color_three" />
+</LinearLayout>

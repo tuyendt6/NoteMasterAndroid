@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ab_background_textured_note">
+
+        <ImageButton
+            android:id="@+id/btn_icon"
+            android:layout_width="@dimen/icon_height"
+            android:layout_height="@dimen/icon_height"
+            android:layout_marginLeft="@dimen/actionbar_pading_left"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btn_icon"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/actionbar_pading_ic"
+            android:layout_toEndOf="@+id/btn_icon"
+            android:layout_toRightOf="@+id/btn_icon"
+            android:gravity="center_vertical"
+            android:text="Note"
+            android:textColor="@color/color_title" />
+
+        <ImageButton
+            android:id="@+id/icon"
+            android:layout_width="@dimen/icon_height"
+            android:layout_height="@dimen/icon_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_action_new" />
+    </RelativeLayout>
+</LinearLayout>

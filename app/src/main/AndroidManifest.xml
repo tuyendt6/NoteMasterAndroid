@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rikkie.noteapp.activity">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NewNoteActivity" />
+
+        <provider
+            android:name="com.rikkie.noteapp.db.DatabaseManager"
+            android:authorities="com.rikkie.noteapp.db"
+            android:exported="false" />
+        <receiver android:name="com.rikkie.noteapp.utils.AlarmReceiver">
+            <intent-filter>
+                <action android:name="com.rikkie.setup_Alarm" />
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+
+</manifest>

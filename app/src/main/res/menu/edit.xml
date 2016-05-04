@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:noteapp="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_insert_picture"
+        android:icon="@drawable/ic_action_camera"
+        android:orderInCategory="1"
+        android:title="camera"
+        noteapp:showAsAction="always" />
+    <item
+        android:id="@+id/action_choose_color"
+        android:icon="@drawable/ic_action_view_as_grid"
+        android:orderInCategory="2"
+        android:title="choosecolor"
+        noteapp:showAsAction="always" />
+    <item
+        android:id="@+id/action_done"
+        android:icon="@drawable/ic_action_accept"
+        android:orderInCategory="3"
+        android:title="accept"
+        noteapp:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_overflow"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_normal_holo_dark"
+        android:orderInCategory="4"
+        android:title="option"
+        noteapp:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_addnew"
+                android:icon="@drawable/ic_action_new"
+                android:orderInCategory="100"
+                android:title="New Note"
+                noteapp:showAsAction="always" />
+        </menu>
+    </item>
+</menu>
