@@ -81,7 +81,7 @@
                     android:id="@+id/sp_date"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/abc_spinner_ab_default_holo_light"
+                    android:background="@drawable/abc_spinner_ab_default_holo_dark"
                     android:overlapAnchor="false"
                     android:visibility="gone" />
 
@@ -89,7 +89,7 @@
                     android:id="@+id/sp_time"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/abc_spinner_ab_default_holo_light"
+                    android:background="@drawable/abc_spinner_ab_default_holo_dark"
                     android:overlapAnchor="false"
                     android:visibility="gone" />
 

@@ -3,7 +3,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_holo_dark</item>
-        <item name="colorPrimary">@drawable/ab_background_textured_note</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
         <item name="icon">@drawable/ic_launcher</item>
     </style>
 
